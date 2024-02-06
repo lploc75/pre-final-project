@@ -1,0 +1,81 @@
+/* Global styles for the entire page */
+
+/* Set the default font family and reset margin and padding for consistent styling */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header styles */
+
+/* Set background color, padding, text color, and center align text in the header */
+header {
+    background-color: #4CAF50;
+    padding: 20px;
+    color: white;
+    text-align: center;
+}
+
+/* Styling for main heading (h1) inside the header */
+
+/* Increase font size, add margin at the bottom, and set text color for the main heading */
+h1 {
+    font-size: 2em;
+    margin-bottom: 10px;
+    color: white;
+}
+
+/* Navigation styles */
+
+/* Remove default list styling for navigation */
+nav ul {
+    list-style: none;
+}
+
+/* Style for navigation list items */
+
+/* Display list items inline, add right margin, and style links within list items */
+nav ul li {
+    display: inline;
+    margin-right: 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+/* Main content styles */
+
+/* Add padding to the main content area */
+main {
+    padding: 20px;
+}
+
+/* Style links within the main content area */
+
+/* Set color and underline for links within the main content area */
+main a {
+    color: #4CAF50;
+    text-decoration: underline;
+}
+
+/* Style for images within the main content area */
+
+/* Add margin, border, and border-radius to images for better presentation */
+main img {
+    margin: 10px;
+    border: 2px solid #4CAF50;
+    border-radius: 8px;
+}
+
+/* Footer styles */
+
+/* Set background color, padding, text color, and center align text in the footer */
+footer {
+    background-color: #4CAF50;
+    padding: 10px;
+    color: white;
+    text-align: center;
+}
